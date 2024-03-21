@@ -1,5 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #363636;
   }
   
   ul {
@@ -8,10 +9,15 @@
   }
   
   .main-title {
+    color: #e2dfd2;
     text-align: center;
     margin: 20px 0 50px;
   }
   
+h2 {
+    color:#e2dfd2;
+}
+
   .products-container {
     width: 90%;
     margin: 0 auto;
@@ -59,19 +65,23 @@
   .product-item-price > button {
     padding: 10px;
     border: none;
-    background-color: green;
+    background-color: #87986a;
     cursor: pointer;
-    color: #fff;
+    color: #e2dfd2;
     border-radius: 5px;
     transition: 0.3s;
   }
   
   .product-item-price > button:hover {
-    background-color: #0dc00d;
+    background-color: #cfe1b9;
   }
   
   /* CART styles */
   
+p {
+    color: #e2dfd2;
+}
+
   .cart {
     text-align: center;
   }
@@ -128,9 +138,9 @@
   .cart-list-quantity-section > button {
     padding: 10px;
     border: none;
-    background-color: red;
+    background-color: #ddb892;
     cursor: pointer;
-    color: #fff;
+    color: #e2dfd2;
     border-radius: 5px;
     transition: 0.3s;
   }
@@ -157,7 +167,7 @@
   }
   
   .cart-list-quantity-section > button:hover {
-    background-color: #bd0404;
+    background-color: #9c6644;
   }
   
   .total-amount {
@@ -169,3 +179,5 @@
     margin-left: 10px;
     font-weight: bold;
   }
+
+  
